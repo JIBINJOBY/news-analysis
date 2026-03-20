@@ -1,6 +1,59 @@
+# Environment and API Keys
 .env
+*.env
+
+# Virtual Environments
 venv/
+test_env/
+env/
+ENV/
+
+# Python
 __pycache__/
-*.pyc
-output/raw_articles.json
-output/analysis_results.json
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output files
+output/
+*.json
+!requirements.txt
+*.md
+!README.md
+!DEVELOPMENT_PROCESS.md
+
+# Vector databases (Layer 2)
+vector_db/
+chroma_db/
+*.index
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter (if used)
+.ipynb_checkpoints/
+*.ipynb

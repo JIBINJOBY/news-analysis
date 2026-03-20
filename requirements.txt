@@ -1,4 +1,0 @@
-google-genai==1.59.0
-newsapi-python==0.2.7
-requests==2.32.5
-python-dotenv==1.2.1
